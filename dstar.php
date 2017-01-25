@@ -1,7 +1,6 @@
 <?php
 /*
-Script für
-www.funkfreunde-essen.de
+Script für www.funkfreunde-essen.de
 
 DSTAR v1.0 - (c) 07/2014 by Erik Schauer 
 
