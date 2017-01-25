@@ -1,5 +1,0 @@
-language: php
-env: 
-  call='do1ffe'
-php:
-  - nightly
