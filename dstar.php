@@ -48,9 +48,6 @@ $rufzeichen = str_replace("  ", " ", $rufzeichen);
 $rufzeichen = explode(" ", $rufzeichen);
 
 $mycall = $rufzeichen[1];
-if ($call == "DO1MFR") {
-	$mycall = "DO1xxx__";
-}
 $mycall = str_replace("_", "&nbsp;", $mycall);
 $rptcall = $rufzeichen[2];
 $rptcall = str_replace("_", "&nbsp;", $rptcall);
@@ -122,7 +119,7 @@ ImageDestroy($img);
    	$filea = 'dstar.php';
 	$fs = date("d.m.Y",filemtime($filea));
 
-	echo "<b>DSTAR V".$version." - &copy; ".$fs." by Erik Schauer, DO1FFE - www.funkfreunde-essen.de</b><br><br>";
+	echo "<b>DSTAR V".$version." - &copy; ".$fs." by Erik Schauer, DO1FFE</b><br><br>";
 	echo "<b>Sinn dieses Scripts: Anzeigen wann ein User &uuml;ber welchen Repeater in DSTAR online war<br></b>";
 	echo "<br><br>";
 	echo "
