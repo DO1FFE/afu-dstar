@@ -66,9 +66,6 @@ fclose($file);
 if ($image == "1") {
 
 $mycall = $rufzeichen[1];
-if ($call == "DO1MFR") {
-	$mycall = "DO1xxx__";
-}
 $mycall = str_replace("_", " ", $mycall);
 $rptcall = $rufzeichen[2];
 $rptcall = str_replace("_", " ", $rptcall);
